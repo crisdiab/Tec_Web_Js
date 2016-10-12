@@ -60,7 +60,8 @@ repositorio de Tecnologias Web JavaScript
  
  ## Citas
  
- para escribir vaiaras lineas de citas usamos el signo mayor que
+ para escribir vaiaras lineas de citas usamos el signo mayor que y no olvidarse del santo de linea
  
- > Solo se que nada se
- > un cualquiera
+ > Solo se que nada se.
+ 
+ > un cualquiera.
