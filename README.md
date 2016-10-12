@@ -18,3 +18,17 @@ repositorio de Tecnologias Web JavaScript
  3. ordenada
  4. no importa
  5. asf
+ 
+ 
+ ## imagenes
+ 
+ ![imagen de JS](http://costaricajs.co/img/CostaRicaJS-Sloth.png)
+ 
+ 
+ ## formateo de codigo
+ 
+ para el formateo de codigo necesitamos tres tildes invertidas
+ ```Javascritp
+ 
+ var mensaje= "Hola Mundo"
+ ```
