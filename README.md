@@ -51,7 +51,7 @@ repositorio de Tecnologias Web JavaScript
  
  ## Tablas 
  
- |Columna 1|Columna 2|Columna 3|
- |-|-|-|
- |valor columna 1|valor columna 2|valor columna 3|
- |valor columna 1|valor columna 2|valor columna 3|
+ |Columna 1 |Columna 2 |Columna 3 |
+ | - | - | - |
+ |valor columna 1 |valor columna 2 |valor columna 3 |
+ |valor columna 1 |valor columna 2 |valor columna 3 |
