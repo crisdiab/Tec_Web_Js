@@ -30,7 +30,7 @@ repositorio de Tecnologias Web JavaScript
  para el formateo de codigo necesitamos tres tildes invertidas
  
  * bloque de codigo javascript
- ```Javascritp
+ ```javascript
  
  var mensaje= "Hola Mundo";
  ```
