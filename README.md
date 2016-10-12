@@ -22,13 +22,28 @@ repositorio de Tecnologias Web JavaScript
  
  ## imagenes
  
- ![imagen de JS](http://costaricajs.co/img/CostaRicaJS-Sloth.png)
+ ![imagen de JS](http://costaricajs.co/img/CostaRicaJS-Sloth.png "javascript")
  
  
  ## formateo de codigo
  
  para el formateo de codigo necesitamos tres tildes invertidas
+ 
+ * bloque de codigo javascript
  ```Javascritp
  
- var mensaje= "Hola Mundo"
+ var mensaje= "Hola Mundo";
+ ```
+ 
+ * bloque de codigo de consola
+ 
+ ```
+ > apt -get install update paquete
+ ```
+ 
+ * bloque de HTML
+ 
+ ```
+ <p>parrafo</p>
+ 
  ```
