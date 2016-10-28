@@ -24,6 +24,7 @@
     * <a href="#defmethttp">Definicion Metodos HTTP</a>
     * <a href="#defw3">Definicion W3Schools</a>
     * <a href="#defcss">Definicion CSS</a>
+    * <a href="#defnavegadores">Definicion Navegadores</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -74,24 +75,77 @@ W3Schools está optimizado para el aprendizaje, pruebas y entrenamiento de difer
 <img src="https://github.com/crisdiab/Tec_Web_Js/blob/informe/imagenes/html_css.png?raw=true" width="300" height="200">
 </p>
 Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de hojas de estilo para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado . Es muy usado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcetera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas. 
+###Navegadores
+<a name = "defnavegadores"></a>
+Un navegador web es el software o programa que nos permite ver la información que contiene una página web. Traduce el código HTML en el que está escrita la página y lo muestra en la pantalla, permitiéndonos interactuar con su contenido y navegar hacia otras páginas o sitios de la red, mediante enlaces o hipervínculos.
+El seguimiento de los enlaces de una página a otra se llama navegación, que es de donde se origina el nombre de navegador web.
 
 ##Desarrollo de la practica
 <a name="desarrollo"></a>
 ###Metodos HTTP
 ####¿Además de estos métodos cuales otros conoces y para que crees que sirven?
-HEAD
+#####HEAD
 El HEAD pide una respuesta idéntica a la de una solicitud GET, pero sin el cuerpo de la respuesta.
-CONNECT
+#####CONNECT
 El método CONNECT establece un túnel para el servidor identificado por el recurso de destino.
 
-OPTIONS
+#####OPTIONS
 El método OPTIONS se utiliza para describir las opciones de comunicación para el recurso de destino.
-TRACE
+#####TRACE
 El método  TRACE lleva a cabo una prueba de bucle de mensajes a lo largo de la ruta de acceso al recurso de destino.
 
-PATCH
+#####PATCH
 El método PATCH se utiliza para aplicar modificaciones parciales a un recurso.
 
+###Status code HTTP
+####Encuentra otros códigos HTTP y describe para que son utilizados.
+#####100 - Continue
+El navegador puede continuar realizando su petición (se utiliza para indicar que la primera parte de la petición del navegador se ha recibido correctamente).
+#####101 - Switching Protocols
+El servidor acepta el cambio de protocolo propuesto por el navegador (puede ser por ejemplo un cambio de HTTP 1.0 a HTTP 1.1).
+#####200 - OK
+Respuesta estándar para peticiones correctas.
+#####201 - Created
+La petición ha sido completada y ha resultado en la creación de un nuevo recurso.
+#####202 - Accepted
+La petición ha sido aceptada para procesamiento, pero este no ha sido completado. La petición eventualmente pudiere no ser satisfecha, ya que podría ser no permitida o prohibida cuando el procesamiento tenga lugar.
+#####306 - Switch Proxy
+Este código se utilizaba en las versiones antiguas de HTTP pero ya no se usa (aunque está reservado para usos futuros).
+#####307 - Temporary Redirect (desde HTTP/1.1)
+Se trata de una redirección que debería haber sido hecha con otra URI, sin embargo aún puede ser procesada con la URI proporcionada. En contraste con el código 303, el método de la petición no debería ser cambiado cuando el cliente repita la solicitud. Por ejemplo, una solicitud POST tiene que ser repetida utilizando otra petición POST.
+#####308 - Permanent Redirect
+El recurso solicitado por el navegador se encuentra en otro lugar y este cambio es permanente. A diferencia del código 301, no se permite cambiar el método HTTP para la nueva petición (así por ejemplo, si envías un formulario a un recurso que ha cambiado de lugar, todo seguirá funcionando bien).
+
+
+###Navegadores
+####Describe otros navegadores en el mercado y revisa cual es su funcionalidad, algunos son especializados en utilizar poca memoria o poco ancho de banda.
+#####Swiftfox 
+<p align="center">
+<img src="https://github.com/crisdiab/Tec_Web_Js/blob/informe/imagenes/nav1.jpg" width="300" height="200">
+</p>
+
+Se trata de un clon de Firefox para Linux, pero mucho más ligero y rápido , (swift significa velóz, rápido). Además está optimizado para ciertos procesadores tanto de 32 como de 64 bits. 
+
+La interfaz de usuario es similar a Firefox, pero más minimalista y fácil de usar. Un detalle importante, Swiftfox no puede ejecutarse mientras Firefox esté en uso, y viceversa. La mayoría de las demás características están, en línea de lo que Firefox puede ofrecer. Si te gusta Firefox, pero quieren algo más rápido y más ligero, entonces Swiftfox puede interesarte. 
+
+#####Maxthon (anteriormente MyIE2) 
+
+<p align="center">
+<img src="https://github.com/crisdiab/Tec_Web_Js/blob/informe/imagenes/nav2.jpg" width="300" height="200">
+</p>
+Es un navegador para Windows basado en el motor de Internet Explorer (Trident). Pone énfasis en la seguridad. A este respecto, lleva incorporado un potente filtro de popups, spyware, malware, virus y un bloqueador de publicidad para eliminar el contenido presente de la publicidad integrada en las páginas. 
+
+Es completamente configurable, (desde las teclas de acceso rápido y barras de herramientas hasta los gestos de ratón). Además el navegador lleva integradas herramientas tan interesantes como un capturador de pantalla, un lector de feedy un servicio en línea de favoritos. 
+
+Según su página oficial, utiliza un promedio de 65% menos de consumo de memoria RAM que Explorer 7,cuando ambos exploradores tienen abierto el mismo número de páginas.
+
+#####Sleipnir 
+
+<p align="center">
+<img src="https://github.com/crisdiab/Tec_Web_Js/blob/informe/imagenes/nav3.jpg" width="300" height="200">
+</p>
+
+Sleipnir es un navegador muy popular en Japón, con una cuota de mercado del 6%. Se trata de un navegador profundamente personalizable y muy versátil. Ofrece multitud de opciones al usuario y temas para cambiar la apariencia de forma radical. Además mantiene una buena velocidad y el rendimiento a pesar de las personalizaciones y cuenta con gran cantidad de plugins que amplían sus funcionalidades. 
 ##Conclusiones y recomendaciones
 <a name="conrec"></a>
 
