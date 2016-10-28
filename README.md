@@ -47,6 +47,9 @@
 ##Definiciones
 <a name = "defhtml"></a>
 ###HTML
+<p align="center">
+<img src="https://github.com/crisdiab/Tec_Web_Js/blob/informe/imagenes/http.jpg" width="300" height="200">
+</p>
 HTML, sigla en inglés de HyperText Markup Language (lenguaje de marcas de hipertexto), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. Se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado.
 <a name = "defcodhttp"></a>
 ###Codigos HTTP
@@ -61,8 +64,14 @@ PUT
 DELETE
 <a name = "defw3"></a>
 ###W3Schools
+<p align="center">
+<img src="https://github.com/crisdiab/Tec_Web_Js/blob/informe/imagenes/w3.jpg?raw=true" width="300" height="200">
+</p>
 
 W3Schools está optimizado para el aprendizaje, pruebas y entrenamiento de diferentes lenguajes WEB. Los ejemplos pueden ser simplificadas para mejorar la lectura y la comprensión básica. Tutoriales, referencias y ejemplos son revisados constantemente para evitar errores, pero no se garantiza la corrección completa de todo el contenido.
 <a name = "defcss"></a>
 ###CSS
+<p align="center">
+<img src="https://github.com/crisdiab/Tec_Web_Js/blob/informe/imagenes/html_css.png?raw=true" width="300" height="200">
+</p>
 Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de hojas de estilo para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado . Es muy usado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcetera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas. 
