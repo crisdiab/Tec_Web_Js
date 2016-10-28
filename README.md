@@ -146,7 +146,87 @@ Según su página oficial, utiliza un promedio de 65% menos de consumo de memori
 </p>
 
 Sleipnir es un navegador muy popular en Japón, con una cuota de mercado del 6%. Se trata de un navegador profundamente personalizable y muy versátil. Ofrece multitud de opciones al usuario y temas para cambiar la apariencia de forma radical. Además mantiene una buena velocidad y el rendimiento a pesar de las personalizaciones y cuenta con gran cantidad de plugins que amplían sus funcionalidades. 
+###Doctype
+####El doctype HTML 4.01 estricto
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+```
+El doctype HTML 4.01 estricto es validado con la especificación de HTML 4.01 y aunque no permite el uso de ningún etiquetado de presentación visual o elementos obsoletos (como los elementos <font>) o conjuntos de marcos, valida el estilo de etiquetado HTML más libre, como los atributos minimizados y los atributos sin comillas (ej. required, en lugar de required="required").
+
+
+####El doctype HTML 4.01 transicional
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd>
+```
+El doctype HTML 4.01 transicional es validado con la especificación de HTML 4.01. Permite algunos elementos de etiquetado de presentación visual y elementos obsoletos (como los elementos <font>), pero no los conjuntos de marcos. De nuevo, valida el estilo de etiquetado HTML más libre.
+###CSS
+####Busca en W3CSchools o en otra fuente confiable que son los siguientes temas:
+#####CSS Combinators
+Un combinador es algo que explica la relación entre los selectores.
+
+Un selector de CSS puede contener más de un selector simple. Entre los selectores simples, podemos incluir un combinador.
+
+Hay cuatro combinadores diferentes en CSS3:
+
+- selector de descendiente (espacio)
+- selector de hijo (>)
+- selector de hermanos adyacentes (+)
+- interruptor general de hermanos (~)
+#####Box Model
+El modelo de caja CSS
+Todos los elementos HTML pueden ser considerados como cajas. En CSS, el término "modelo de caja" se usa cuando se habla de diseño y el diseño.
+
+El modelo de caja CSS es esencialmente una caja que envuelve cada elemento HTML. Se compone de: márgenes, bordes, el relleno y el contenido real
+#####CSS Pseudo-classes
+Un pseudo-clase se utiliza para definir un estado especial de un elemento.
+
+Por ejemplo, se puede utilizar para:
+
+- Estilo un elemento cuando se coloca el ratón sobre ella
+- Estilo visitados y no visitados enlaces de manera diferente
+- Estilo un elemento cuando se pone el foco
+#####CSS Pseudo-elements
+Un pseudo-elemento CSS se utiliza para estilo especificado partes de un elemento.
+
+Por ejemplo, se puede utilizar para:
+
+- Estilo de la primera letra o línea, de un elemento
+- Insertar contenido antes de, o después de, el contenido de un elemento
+#####CSS Attribute Selectors
+
+El [attribute]selector se utiliza para seleccionar elementos con un atributo especificado.
+#####CSS Forms
+El aspecto de un formulario HTML puede ser mejorado con CSS
+#####CSS Counters
+contadores de CSS son "variables" que mantiene CSS cuyos valores pueden ser incrementado por las reglas CSS (para realizar un seguimiento de la cantidad de veces que se utilizan). Los contadores permiten ajustar la apariencia de contenido en función de su ubicación en el documento.
+Para trabajar con contadores de CSS usaremos las siguientes propiedades:
+
+- counter-reset - Crea o restablece un contador
+- counter-increment - Incrementa un valor de contador
+- content - Inserta contenido generado
+- counter()o counters()la función - Suma el valor de un contador a un elemento.
+
+#####CSS3 Transitions
+transiciones CSS3 le permite cambiar los valores de propiedad sin problemas (de un valor a otro), durante un periodo determinado.
+#####CSS3 Animations
+animaciones CSS3 permite la animación de la mayoría de los elementos HTML sin necesidad de utilizar JavaScript o Flash!
+#####CSS3 2D Transforms
+transformaciones CSS3 le permiten trasladar, rotar, escalar y sesgar elementos.
+
+Una transformación es un efecto que permite un cambio de elemento de forma, tamaño y posición.
+
+CSS3 admite transformaciones 2D y 3D.
+#####CSS3 3D Transforms
+CSS3 permite dar formato a los elementos que utilizan transformaciones 3D.
 ##Conclusiones y recomendaciones
+- El mundo de la WEB es inmenso pues tiene tantas cosas por explorar que requieren de un estudio constante por el avance de la tecnologia.
+- Podemos dar un aspecto agradable a la vista con CSS a nuestros documentos HTML.
+- El uso de herramientas como "inspeccionar" ayudan mucho para analizar si tenemos algun error o si queremos simplemente por curiosidad analizar como se ejecutan las acciones.
+- W3 Schools es una gran herramienta ya que nos explica como funciona ademas nos permite realizar cambios para probar diferentes cosas sin miedo a dañar alguna parte de codigo.
+
+
 <a name="conrec"></a>
 
 <a href="#cabecera">Regresar a la cabecera</a>
