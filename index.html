@@ -70,23 +70,31 @@
                 {
                 nombre : 'Silvana',
                 apellido : 'Lara'    
-                }
+                },
                 
                       
-                      ]
+           //funciones           ],
+            getNombre :  function (){
+
+                return this.nombre;
+            },
+            setApellido : function (NuevoApellido) {
+                       
+                this.apellido = NuevoApellido;
+                       }
         }
         
         console.log('Acceder nombre');
         console.log(cristian.nombre);
         console.log(cristian.apellido);
+                       
+                       adrian.setApellido('Balarezo')
         
         
-        
-        function getNombreCristian(){
-            
-            
-        }
+                       console.log(cristian.apellido);
+       
     
+        console.log(cristian.getNombre());
     </script>
     
     
