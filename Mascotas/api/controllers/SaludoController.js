@@ -15,18 +15,20 @@ module.exports = {
       res.json({
         nombre : 'hola get'
       })
-    }
-    if(req.method == 'POST'){
-      res.json({
-        nombre : 'hola post'
-      })
     }else{
+      if(req.method == 'POST'){
+        res.json({
+          nombre : 'hola post'
+        })
+      }else{
 
         res.json({
           nombre : 'hola todos'
         })
 
+      }
     }
+
 
   },
   adios : function( req, res){
