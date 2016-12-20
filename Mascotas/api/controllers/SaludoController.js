@@ -9,7 +9,24 @@ module.exports = {
 
 
   hola : function(req,res){
-    res.send('hola')
+
+
+    if(req.method == 'GET'){
+      res.json({
+        nombre : 'hola get'
+      })
+    }
+    if(req.method == 'POST'){
+      res.json({
+        nombre : 'hola post'
+      })
+    }else{
+
+        res.json({
+          nombre : 'hola todos'
+        })
+
+    }
 
   },
   adios : function( req, res){
