@@ -12,3 +12,14 @@ npm install - g sails
 ```
 sails new nombre del proyecto
 ```
+
+
+1safe mode
+
+2alter mode
+3delete mode
+
+###servidor web sails
+
+el servidor web de sails se encuentra en la capreta assets
+
